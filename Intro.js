@@ -6,7 +6,7 @@ class Intro {
   setup() {
     this.height = HEIGHT;
     this.width = WIDTH;
-    this.button = document.querySelector(".songbutton");
+    this.songButton = document.querySelector(".songbutton");
 
     // Start game button
     startButton = createButton("START");
@@ -14,18 +14,14 @@ class Intro {
     startButton.addClass("startbutton");
     startButton.mousePressed(startGame);
 
-    // Play song before game button (stops at main.js)
-    /*songButton = createButton(
-      "Click here to listen to the intro song (before playing)"
-    );
-    songButton.position(20, 268);
-    songButton.addClass("songbutton");
-    */
-    this.button.onclick = (event) => {
+    this.songButton.onclick = (event) => {
       song.play();
       event.target.style.display = "none";
-      //console.log("hiiii");
     };
+
+    if (level === "game" && songButton.onclick == false) {
+      songButton.hide();
+    }
   }
 
   draw() {

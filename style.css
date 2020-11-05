@@ -22,8 +22,8 @@
   text-align: center;
   align-self: center;
   border: 1px solid #a89dc5;
-  padding: 5px;
-  margin: 0;
+  margin: 0 0 0 65px;
+  padding: 5px 10px;
 }
 
 .instructions {
@@ -37,6 +37,7 @@
   margin: 5px 10px 5px;
   font-family: monospace;
   font-weight: bold;
+  border: 1px solid #674a68;
 }
 
 .intro-text {
@@ -116,4 +117,41 @@
   margin: 10px 5px 0 5px;
   text-decoration: none;
   text-shadow: 0px 1px 0px #e1e2ed;
+}
+
+.credits {
+  background-color: #a89dc5;
+  display: flex;
+  width: 380px;
+  flex-direction: row;
+  font-family: monospace;
+  border: 10px;
+  position: absolute;
+  top: 940px;
+  left: 15px;
+  border: 1px solid #674a68;
+}
+
+.madewithlove {
+  color: white;
+  align-self: center;
+  font-size: 15px;
+  padding: 0 0 0 20px;
+}
+
+.artby {
+  color: white;
+  align-self: left;
+  padding: 0 20px 0;
+  text-align: justify;
+  font-size: 11px;
+}
+
+.white {
+  width: 500px;
+  height: 10px;
+  display: flex;
+  position: absolute;
+  background-color: white;
+  top: 1060px;
 }

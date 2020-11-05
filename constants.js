@@ -9,6 +9,5 @@ let scl = 30;
 
 let timer = 30;
 let startButton;
-let songButton;
 
 const buttonSection = document.querySelector(".button-section");
