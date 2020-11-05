@@ -1,0 +1,117 @@
+.startbutton {
+  display: flex;
+  background-color: #674a68;
+  color: white;
+  width: 72px;
+  height: 45px;
+  padding: 10px;
+  border-radius: 20px;
+  font-family: monospace;
+  font-size: 18px;
+  text-align: center;
+  align-self: center;
+  border: 1px solid #a89dc5;
+}
+
+.songbutton {
+  display: flex;
+  background-color: #674a68;
+  color: white;
+  font-family: monospace;
+  font-size: 12px;
+  text-align: center;
+  align-self: center;
+  border: 1px solid #a89dc5;
+}
+
+.instructions {
+  background-color: #a89dc5;
+  width: 380px;
+  height: 250px;
+  display: flex;
+  border-style: border-box;
+  border-color: #674a68;
+  border-width: 10px;
+  margin: 5px 10px 5px;
+  font-family: monospace;
+  font-weight: bold;
+}
+
+.intro-text {
+  display: flex;
+  color: black;
+  width: 360px;
+  margin-top: 45px;
+  margin-left: 10px;
+  justify-content: space-between;
+  text-align: justify;
+}
+
+.h1 {
+  font-size: 20px;
+  color: black;
+  display: flex;
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 65px;
+}
+
+.intro-drop {
+  height: 30px;
+  display: flex;
+  position: absolute;
+  margin-top: 210px;
+  margin-left: 50px;
+}
+
+.intro-cramp {
+  height: 30px;
+  position: absolute;
+  margin-top: 210px;
+  margin-left: 200px;
+}
+
+.this-drop {
+  position: absolute;
+  font-size: 15px;
+  margin-top: 215px;
+  margin-left: 80px;
+}
+
+.this-cramp {
+  position: absolute;
+  font-size: 15px;
+  margin-top: 215px;
+  margin-left: 230px;
+}
+
+.game-window {
+  display: flex;
+  margin-left: 100px;
+}
+
+.above-button {
+  width: 400px;
+  height: 15px;
+  display: flex;
+  position: relative;
+  margin: 0;
+  align-items: center;
+  justify-content: center;
+}
+
+.above-button button {
+  background: linear-gradient(to bottom, #ededed 5%, #bab1ba 100%);
+  border: 1px solid #a89dc5;
+  border-radius: 25px;
+  display: inline-block;
+  cursor: pointer;
+  color: black;
+  font-family: monospace;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 3px 19px;
+  margin: 10px 5px 0 5px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #e1e2ed;
+}
