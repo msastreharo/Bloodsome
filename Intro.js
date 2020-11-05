@@ -6,22 +6,25 @@ class Intro {
   setup() {
     this.height = HEIGHT;
     this.width = WIDTH;
+    this.button = document.querySelector(".songbutton");
 
     // Start game button
     startButton = createButton("START");
-    startButton.position(165, 575);
+    startButton.position(165, 590);
     startButton.addClass("startbutton");
     startButton.mousePressed(startGame);
 
     // Play song before game button (stops at main.js)
-    songButton = createButton(
+    /*songButton = createButton(
       "Click here to listen to the intro song (before playing)"
     );
     songButton.position(20, 268);
     songButton.addClass("songbutton");
-    songButton.onclick = (event) => {
+    */
+    this.button.onclick = (event) => {
       song.play();
       event.target.style.display = "none";
+      //console.log("hiiii");
     };
   }
 
