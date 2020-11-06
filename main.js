@@ -1,6 +1,11 @@
 const game = new Game();
 const intro = new Intro();
 let level = "Intro";
+const songButton2 = document.querySelector(".songbutton");
+songButton2.onclick = (event) => {
+  song.play();
+  event.target.style.display = "none";
+};
 
 function preload() {
   bgImage = loadImage("./imgs/background.jpg");

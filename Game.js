@@ -15,6 +15,7 @@ class Game {
   }
 
   draw() {
+    songButton2.style.display = "none";
     this.background.draw();
     this.player.draw();
 
